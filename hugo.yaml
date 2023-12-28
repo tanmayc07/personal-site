@@ -2,3 +2,35 @@ baseURL: https://example.org/
 languageCode: en-us
 title: Tanmay Chaudhari
 theme: ["PaperMod"]
+
+enableEmoji: true
+
+params:
+  defaultTheme: auto
+  profileMode:
+    enabled: true
+    # title: "<Title>" # optional default will be site title
+    subtitle: "Computer Programmer"
+    imageUrl: "https://media1.giphy.com/media/Bzzb92NKwUOj0FjQOd/giphy.gif?cid=ecf05e47mqaevucni02y58st0860bthng1roofds5nawno3u&ep=v1_gifs_search&rid=giphy.gif&ct=g" # optional
+    imageTitle: "Random Programming gif" # optional
+    imageWidth: 150 # custom size
+    imageHeight: 120 # custom size
+    # buttons:
+    #   - name: Archive
+    #     url: "/archive"
+    #   - name: Github
+    #     url: "https://github.com/"
+
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/tanmayc07"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/hctanmay"
+    - name: "goodreads"
+      url: "https://www.goodreads.com/tanmay-reads"
+    - name: "email"
+      url: "mailto:hctanmay@gmail.com"
+
+  ShowShareButtons: true
+  ShareButtons: ["linkedin", "twitter"]
+
