@@ -5,16 +5,37 @@ theme: ["PaperMod"]
 
 enableEmoji: true
 
+menu:
+  main:
+    - identifier: home
+      name: home
+      url: /
+      weight: 10
+    - identifier: about
+      name: about
+      url: /about
+      weight: 20
+
+
 params:
   defaultTheme: auto
-  profileMode:
-    enabled: true
-    # title: "<Title>" # optional default will be site title
-    subtitle: "Computer Programmer"
+  homeInfoParams:
+    Title: 👋🏻 Hi there!
+    Content: "I'm <a href=\"/about\"><span class=\"name-highlight-a\">Tanmay</span></a> and it's good to have you here!"
+    # imageUrl: "https://i.ibb.co/hBxzX1y/DSC-0101.jpg"
     imageUrl: "https://media1.giphy.com/media/Bzzb92NKwUOj0FjQOd/giphy.gif?cid=ecf05e47mqaevucni02y58st0860bthng1roofds5nawno3u&ep=v1_gifs_search&rid=giphy.gif&ct=g" # optional
     imageTitle: "Random Programming gif" # optional
-    imageWidth: 150 # custom size
-    imageHeight: 120 # custom size
+    imageWidth: 300 # custom size
+    imageHeight: 200 # custom size
+  
+  # profileMode:
+  #   enabled: true
+  #   title: "👋🏻 Hi, I'm Tanmay!" # optional default will be site title
+  #   subtitle: "Computer Programmer"
+  #   imageUrl: "https://media1.giphy.com/media/Bzzb92NKwUOj0FjQOd/giphy.gif?cid=ecf05e47mqaevucni02y58st0860bthng1roofds5nawno3u&ep=v1_gifs_search&rid=giphy.gif&ct=g" # optional
+  #   imageTitle: "Random Programming gif" # optional
+  #   imageWidth: 300 # custom size
+  #   imageHeight: 200 # custom size
     # buttons:
     #   - name: Archive
     #     url: "/archive"
