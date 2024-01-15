@@ -19,6 +19,10 @@ menu:
       name: projects
       url: /projects
       weight: 30
+    - identifier: cv
+      name: cv
+      url: "https://cv-beta-seven-72.vercel.app/"
+      weight: 40
 
 
 params:
