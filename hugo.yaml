@@ -1,0 +1,71 @@
+baseURL: https://tanmayc.me/
+languageCode: en-us
+title: Tanmay Chaudhari
+theme: ["PaperMod"]
+
+enableEmoji: true
+
+menu:
+  main:
+    - identifier: home
+      name: home
+      url: /
+      weight: 10
+    - identifier: about
+      name: about
+      url: /about
+      weight: 20
+    - identifier: projects
+      name: projects
+      url: /projects
+      weight: 30
+    - identifier: cv
+      name: cv
+      url: "https://cv-beta-seven-72.vercel.app/"
+      weight: 40
+
+
+params:
+  defaultTheme: auto
+  homeInfoParams:
+    Title: 👋🏻 Hi there!
+    Content: "I'm <a href=\"/about\"><span class=\"name-highlight-a\">Tanmay</span></a> and it's good to have you here!"
+    # imageUrl: "https://i.ibb.co/hBxzX1y/DSC-0101.jpg"
+    imageUrl: "https://media1.giphy.com/media/Bzzb92NKwUOj0FjQOd/giphy.gif?cid=ecf05e47mqaevucni02y58st0860bthng1roofds5nawno3u&ep=v1_gifs_search&rid=giphy.gif&ct=g" # optional
+    imageTitle: "Random Programming gif" # optional
+    imageWidth: 300 # custom size
+    imageHeight: 200 # custom size
+
+    assets:
+    favicon: "https://tanmayc.me/personal-site/favicon.ico"
+    favicon16x16: "https://tanmayc.me/personal-site/favicon-16x16.png"
+    favicon32x32: "https://tanmayc.me/personal-site/favicon-32x32.png"
+    apple_touch_icon: "https://tanmayc.me/personal-site/apple-touch-icon.png"
+  
+  # profileMode:
+  #   enabled: true
+  #   title: "👋🏻 Hi, I'm Tanmay!" # optional default will be site title
+  #   subtitle: "Computer Programmer"
+  #   imageUrl: "https://media1.giphy.com/media/Bzzb92NKwUOj0FjQOd/giphy.gif?cid=ecf05e47mqaevucni02y58st0860bthng1roofds5nawno3u&ep=v1_gifs_search&rid=giphy.gif&ct=g" # optional
+  #   imageTitle: "Random Programming gif" # optional
+  #   imageWidth: 300 # custom size
+  #   imageHeight: 200 # custom size
+    # buttons:
+    #   - name: Archive
+    #     url: "/archive"
+    #   - name: Github
+    #     url: "https://github.com/"
+
+  socialIcons: # optional
+    - name: "github"
+      url: "https://github.com/tanmayc07"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/hctanmay"
+    - name: "goodreads"
+      url: "https://www.goodreads.com/tanmay-reads"
+    - name: "email"
+      url: "mailto:hctanmay@gmail.com"
+
+  ShowShareButtons: true
+  ShareButtons: ["linkedin", "twitter"]
+

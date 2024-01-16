@@ -1,0 +1,23 @@
+.home-info {
+    align-items: center;
+    text-align: justify;
+}
+
+.home-info img {
+    margin-bottom: 1%;
+    border-radius: 50%;
+}
+
+.header {
+    border-bottom: 1px solid #2e2e2e
+}
+
+::selection {
+    color: #444452;
+    background: #7bff00;
+}
+
+.name-highlight-a {
+    color: #000000;
+    background: #7bff00;
+}
