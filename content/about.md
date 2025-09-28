@@ -11,7 +11,7 @@ showReadingTime: false
 I'm a computer programmer currently pursuing my Master's in Computer Science from SUNY Binghamton University. Previously I completed
 my Bachelor's in Computer Engineering from University of Mumbai. 
 
-I'm passionate about building software programs and dabbling with new technologies to create user-focused and result-driven applications.
+A versatile software developer driven by the pursuit of engineering elegant solutions, I easily transition between technologies to deliver superior, results-oriented user experiences.
 
 ## Technical Skills
 
@@ -19,7 +19,7 @@ I'm passionate about building software programs and dabbling with new technologi
 |-----------------------|------------------------|--------------------------|-----------------------------          |
 | C                     | Django                 | MySQL                    | Git, GitHub                           |
 | Python                | Flask                  | MongoDB                  | Docker                                |
-| Java                  | Express.js             | PostgreSQL               | Heroku                                |
-| Haskell               | HTML, CSS, JavaScript  | Pandas, NumPy            | Linux, Bash scripting                 |
-| GoLang                | React.js, Bootstrap    | Matplotlib               | RESTful APIs                          |
+| Java                  | Express.js             | PostgreSQL               | Nix                                   |
+| Rust                  | HTML, CSS, JavaScript  | Pandas, NumPy            | Linux, Bash scripting                 |
+| Typescript            | React.js, Bootstrap    | Matplotlib               | RESTful APIs                          |
 

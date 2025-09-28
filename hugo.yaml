@@ -36,6 +36,7 @@ params:
   homeInfoParams:
     Title: 👋🏻 Hi there!
     Content: "I'm <a href=\"/about\"><span class=\"name-highlight-a\">Tanmay</span></a> and it's good to have you here!"
+
     # imageUrl: "https://i.ibb.co/hBxzX1y/DSC-0101.jpg"
     imageUrl: "https://media1.giphy.com/media/Bzzb92NKwUOj0FjQOd/giphy.gif?cid=ecf05e47mqaevucni02y58st0860bthng1roofds5nawno3u&ep=v1_gifs_search&rid=giphy.gif&ct=g" # optional
     imageTitle: "Random Programming gif" # optional
@@ -69,3 +70,7 @@ params:
   // ShowShareButtons: true
   ShareButtons: ["linkedin", "twitter"]
 
+markup:
+  markup.goldmark:
+    markup.goldmark.renderer:
+      unsafe = true
