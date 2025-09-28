@@ -23,6 +23,8 @@ menu:
       name: blog
       url: "https://techtracer.mataroa.blog"
       weight: 40
+      rel: "noopener noreferrer"
+      target: _blank
     - identifier: cv
       name: cv
       url: "https://cv-beta-seven-72.vercel.app/"
