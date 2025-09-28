@@ -25,10 +25,10 @@ menu:
       weight: 40
       rel: "noopener noreferrer"
       target: _blank
-    - identifier: cv
-      name: cv
-      url: "https://cv-beta-seven-72.vercel.app/"
-      weight: 40
+    # - identifier: cv
+    #   name: cv
+    #   url: "https://cv-beta-seven-72.vercel.app/"
+    #   weight: 40
 
 
 params:
