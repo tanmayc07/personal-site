@@ -66,6 +66,6 @@ params:
     - name: "email"
       url: "mailto:hctanmay@gmail.com"
 
-  ShowShareButtons: true
+  // ShowShareButtons: true
   ShareButtons: ["linkedin", "twitter"]
 
